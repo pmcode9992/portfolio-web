@@ -64,7 +64,7 @@ const WallText = () => {
 // New Camera Control Component
 const CameraControl = ({ targetRef }) => {
   // const cameraRef = useRef();
-  const [zoomToMonitor, setZoomToMonitor] = useState(false);
+  const [zoomToMonitor] = useState(false);
   const originalPosition = new Vector3(0, 2, 10);
   const monitorPosition = new Vector3(0, 1.5, 1);
 
